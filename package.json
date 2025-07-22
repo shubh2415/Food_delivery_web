@@ -2,6 +2,7 @@
   "name": "food-delivery1",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://shubh2415.github.io/Food_delivery_web",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
