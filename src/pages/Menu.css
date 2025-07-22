@@ -1,0 +1,128 @@
+/* src/pages/Menu.css */
+
+.menu-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    font-family: sans-serif;
+  }
+  
+  .search-section {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .search-input {
+    padding: 10px 16px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .search-button:hover {
+    background-color: #005fa3;
+  }
+  
+  .cards-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .dish-card{
+    display: flex;
+    align-items: flex-start;
+    width: 90%;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+
+
+
+  .dish-image {
+    width: 30px;         /* 👈 Changed from 130px */
+    height: 50px;        /* ✅ As you requested */
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: 2px solid red;      /* For testing (optional) */
+    background-color: yellow;   /* For testing (optional) */
+  }
+  
+  .dish-details {
+    flex: 1;
+  }
+  
+  .dish-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+  
+  .dish-description {
+    color: #555;
+    font-size: 15px;
+    margin-bottom: 12px;
+  }
+  
+  .dish-price {
+    font-size: 17px;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .dish-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    margin-left: 20px;
+  }
+  
+  .quantity-input {
+    width: 60px;
+    padding: 6px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .add-button {
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #218838;
+  }
+  
+  .no-results {
+    margin-top: 50px;
+    text-align: center;
+    color: #999;
+    font-size: 18px;
+  }
+  
